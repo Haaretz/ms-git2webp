@@ -1,0 +1,18 @@
+{
+  "name": "@haaretz/ms-gif2webp",
+  "version": "1.0.0",
+  "description": "microservice to convert gif images to webp",
+  "main": "index.js",
+  "repository": "https://github.com/Haaretz/ms-gif2webp",
+  "author": "TxHawks <tofu.hawks@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
