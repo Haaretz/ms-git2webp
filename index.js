@@ -19,7 +19,6 @@ app.get('*', (req, res) => {
     res.contentType('image/webp');
 
     ffmpeg(origImage)
-      .inputFormat('gif')
       .toFormat('webp')
       .outputOptions([
         '-q:v 70',
